@@ -1,91 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    --main-color: #BC002D;
-    --second-color: #FFF;
-    --third-color: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --main-color: #bc002d;
+  --second-color: #fff;
+  --third-color: #000;
+  overflow-x: hidden;
 }
 
 .section1 {
-    display: flex;
-    background-image: url('../assets/pic-1.jpg');
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+  display: flex;
+  background-image: url("../assets/pic-1.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .section1 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
 }
 
 .section1 header img {
-    width: 200px;
-    border-radius: 4px;
+  width: 200px;
+  border-radius: 4px;
 }
 
 .section1 header h2 {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: -100px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: -100px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .section1 header span {
-    display: block;
-    font-size: 34px;
-    text-transform: uppercase;
-    font-weight: 900;
+  display: block;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .section1 header h1 {
-    font-size: 70px;
-    font-family: 'Protest Revolution', sans-serif;
-    color: var(--main-color);
-    letter-spacing: 20px;
+  font-size: 70px;
+  font-family: "Protest Revolution", sans-serif;
+  color: var(--main-color);
+  letter-spacing: 20px;
 }
 
 .section1 header p {
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-top: 70px;
-    color: #000;
-    background-color: #FFF;
-    padding: 10px;
-    border-radius: 4px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 70px;
+  color: #000;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
 }
 
-.section1 header .bx-chevron-down{
-    color: var(--second-color);
-    font-size: 60px;
-    cursor: pointer;
+.section1 header .bx-chevron-down {
+  color: var(--second-color);
+  font-size: 60px;
+  cursor: pointer;
 }
 
 .section2 {
-    display: flex;
-    background-image: url('../assets/pic-2.jpg');
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+  display: flex;
+  background-image: url("../assets/pic-2.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
 }
-
-
 
 /* 
 
