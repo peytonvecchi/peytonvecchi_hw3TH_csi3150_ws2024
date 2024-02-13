@@ -75,6 +75,16 @@
     cursor: pointer;
 }
 
+.section2 {
+    display: flex;
+    background-image: url('../assets/pic-2.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
 
 
 /* 
