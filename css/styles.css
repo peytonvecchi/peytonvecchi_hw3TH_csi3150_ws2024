@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +12,13 @@
   --second-color: #fff;
   --third-color: #000;
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: var(--second-color);
 }
 
 .section1 {
   display: flex;
-  background-image: url("../assets/pic-1.jpg");
+  background-image: url("../assets/pic-1-1.jpg");
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -37,17 +41,17 @@
 
 .section1 header h2 {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
   margin-top: -100px;
   font-weight: 400;
   text-align: center;
 }
 
 .section1 header span {
+  font-family: 'Roboto Slab', serif;
   display: block;
   font-size: 34px;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .section1 header h1 {
@@ -59,7 +63,7 @@
 
 .section1 header p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 70px;
@@ -80,12 +84,278 @@
   background-image: url("../assets/pic-2.jpg");
   background-size: cover;
   background-position: center;
-  justify-content: center;
+  justify-content:space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: var(--second-color);
+}
+
+.section2 h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  font-weight: 500;
+  width: 500px;
+  color: var(--main-color);
+  
+}
+
+.section2-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section2-description .paragraphs {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  gap: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  max-width: 600px;
+}
+
+.section2-description button {
+  width: 120px;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: var(--main-color);
+  color: var(--second-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.section2-description button:hover {
+  background: var(--second-color);
+  color: var(--third-color);
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("../assets/pic-3.jpg");
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   width: 100vw;
 }
 
+.section3 h1 {
+  color: var(--second-color);
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+
+.section3 .section3-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section3 button {
+  width: 120px;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: var(--main-color);
+  color: var(--second-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.section3 button:hover {
+  background: var(--second-color);
+  color: var(--third-color);
+}
+
+.section3 .section3-images .image1 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-image: url("../assets/mount-fuji.jpg");
+  width: 500px;
+  height: 560px;
+}
+
+.section3 .section3-images .image2 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-image: url("../assets/tokyo-palace.jpeg");
+  width: 500px;
+  height: 560px;
+}
+
+.section3 .section3-images .image3 {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-image: url("../assets/kyoto.jpg");
+  width: 500px;
+  height: 560px;
+}
+
+.section3 .section3-images .image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+
+.section3 .section3-images .image-card span {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding: 8px;
+  width: auto;
+  border-radius: 4px;
+}
+
+.section3 .section3-images .image-card i{
+  font-size: 50px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/pic-4.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.section4 h1 {
+  align-self: flex-start;
+  margin-top: 180px;
+  color: var(--second-color);
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  width: 300px;
+  font-weight: 400;
+}
+
+.section4 h1 span {
+  display: block;
+  font-size: 60px;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.section4 .section4-description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.section4 .section4-description h2 {
+  font-family: 'Roboto slab', serif;
+}
+
+.section5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-size: cover;
+  background-position: top center;
+  background-image: url("../assets/pic-5-1.jpg");
+  height: 60vh;
+  width: 100vw;
+}
+
+.section5 .section5-circles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 50%;
+  padding: 60px;
+}
+
+.section5-circles h1 {
+  color: var(--main-color);
+  font-size: 40px;
+  font-family: 'Roboto slab', 'serif';
+  font-family: 'Protest Revolution', 'serif';
+}
+
+.section5 .section5-circles p {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: 'Roboto slab', 'serif';
+}
+
+.section6 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/pic-6-2.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 80vh;
+  width: 100vw;
+}
+
+.section6 img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 0px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.section6 .section6-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.75);
+  width: 700px;
+  padding: 8px;
+  border-radius: 4px;
+  gap: 12px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.section6 i {
+  font-size: 60px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+
+
 /* 
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body {
     display: flex;
